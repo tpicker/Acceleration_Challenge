@@ -1,0 +1,166 @@
+{
+  "countries": [
+    "Algeria",
+    "Brazil",
+    "Costa Rica",
+    "France",
+    "Ireland",
+    "Japan",
+    "Jordan",
+    "Kenya",
+    "Mexico",
+    "Morocco",
+    "Oman",
+    "Pakistan",
+    "South Korea",
+    "Ukraine",
+    "Venezuela",
+    "Vietnam"
+  ],
+  "technologies": [
+    {
+      "name": "Natural Gas (Combined Cycle)",
+      "size": "200-800 MW",
+      "minMW": 200,
+      "maxMW": 800,
+      "minCost": 200,
+      "maxCost": 1300,
+      "minYears": 2,
+      "maxYears": 4,
+      "kind": "generation"
+    },
+    {
+      "name": "Natural Gas Peaker",
+      "size": "50-200 MW",
+      "minMW": 50,
+      "maxMW": 200,
+      "minCost": 35,
+      "maxCost": 240,
+      "minYears": 1,
+      "maxYears": 3,
+      "kind": "generation"
+    },
+    {
+      "name": "Coal Plant",
+      "size": "500-1,000 MW",
+      "minMW": 500,
+      "maxMW": 1000,
+      "minCost": 5000,
+      "maxCost": 10000,
+      "minYears": 5,
+      "maxYears": 10,
+      "kind": "generation"
+    },
+    {
+      "name": "Nuclear (Large)",
+      "size": "1,000-1,600 MW",
+      "minMW": 1000,
+      "maxMW": 1600,
+      "minCost": 10000,
+      "maxCost": 20000,
+      "minYears": 8,
+      "maxYears": 15,
+      "kind": "generation"
+    },
+    {
+      "name": "Small Modular Reactor (SMR)",
+      "size": "50-300 MW",
+      "minMW": 50,
+      "maxMW": 300,
+      "minCost": 300,
+      "maxCost": 3000,
+      "minYears": 4,
+      "maxYears": 7,
+      "kind": "generation"
+    },
+    {
+      "name": "Solar PV (Utility)",
+      "size": "50-300 MW",
+      "minMW": 50,
+      "maxMW": 300,
+      "minCost": 80,
+      "maxCost": 1200,
+      "minYears": 1,
+      "maxYears": 2,
+      "kind": "generation"
+    },
+    {
+      "name": "Solar + Storage",
+      "size": "100-500 MW",
+      "minMW": 100,
+      "maxMW": 500,
+      "minCost": 200,
+      "maxCost": 2500,
+      "minYears": 1,
+      "maxYears": 3,
+      "kind": "hybrid"
+    },
+    {
+      "name": "Onshore Wind",
+      "size": "100-300 MW",
+      "minMW": 100,
+      "maxMW": 300,
+      "minCost": 170,
+      "maxCost": 1100,
+      "minYears": 2,
+      "maxYears": 4,
+      "kind": "generation"
+    },
+    {
+      "name": "Offshore Wind",
+      "size": "300-1,000 MW",
+      "minMW": 300,
+      "maxMW": 1000,
+      "minCost": 2500,
+      "maxCost": 9000,
+      "minYears": 5,
+      "maxYears": 10,
+      "kind": "generation"
+    },
+    {
+      "name": "Hydropower (Large Dam)",
+      "size": "100-1,000+ MW",
+      "minMW": 100,
+      "maxMW": 1000,
+      "minCost": 250,
+      "maxCost": 16000,
+      "minYears": 5,
+      "maxYears": 10,
+      "kind": "generation"
+    },
+    {
+      "name": "Geothermal",
+      "size": "20-100 MW",
+      "minMW": 20,
+      "maxMW": 100,
+      "minCost": 40,
+      "maxCost": 500,
+      "minYears": 3,
+      "maxYears": 6,
+      "kind": "generation"
+    },
+    {
+      "name": "Biomass / Waste-to-Energy",
+      "size": "20-100 MW",
+      "minMW": 20,
+      "maxMW": 100,
+      "minCost": 80,
+      "maxCost": 500,
+      "minYears": 3,
+      "maxYears": 5,
+      "kind": "generation"
+    },
+    {
+      "name": "Battery Storage (grid-scale)",
+      "size": "50-300 MW",
+      "minMW": 50,
+      "maxMW": 300,
+      "minCost": 65,
+      "maxCost": 400,
+      "minYears": 1,
+      "maxYears": 2,
+      "kind": "storage"
+    }
+  ],
+  "windowYears": 4
+}
